@@ -1,0 +1,35 @@
+<html>
+<script>
+function big2(n1,n2)
+{
+	if(n1>n2)
+	{
+	document.write("n1 is big : "+n1+"<br>");
+	}
+	else
+	{
+	document.write("n2 is big : "+n2+"<br>");
+	}
+}
+function big3(n1,n2,n3)
+{
+	if(n1>n2 && n1>n3)
+	{
+	document.write("n1 is big : "+n1+"<br>");
+	}
+	else
+	if(n2>n1 && n2>n3)
+	{
+	document.write("n2 is big : "+n2+"<br>");
+	}
+	else
+	{
+	document.write("n3 is big : "+n3+"<br>");
+	}
+}
+document.write("Biggest among two:"+"<br>");
+big2(100,70);
+document.write("Biggest among three:"+"<br>");
+big3(12,90,34);
+</script>
+</html>
